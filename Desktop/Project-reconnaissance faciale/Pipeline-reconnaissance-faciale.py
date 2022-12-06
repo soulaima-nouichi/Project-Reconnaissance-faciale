@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw
 import face_recognition
 import numpy as np
+#
 # Chargez un exemple d'image et apprenez a la reconnaitre
 image_soulaima = face_recognition.load_image_file("/Users/lenovo/Desktop/Project-reconnaissance faciale/soul.jpg")
 encodage_visage_soulaima = face_recognition.face_encodings(image_soulaima)[0]
