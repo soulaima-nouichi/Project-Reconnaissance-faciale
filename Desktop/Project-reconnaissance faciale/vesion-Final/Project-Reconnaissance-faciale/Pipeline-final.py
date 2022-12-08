@@ -4,6 +4,7 @@ import face_recognition
 import os
 from datetime import datetime
 
+
 #===> Etape 1 
 #on va Spécifier le chemin de notre dataset des images
 path = '/Users/lenovo/Desktop/Project-reconnaissance faciale/Project-Reconnaissance-faciale/img/'
